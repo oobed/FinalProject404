@@ -1,0 +1,154 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "nickmusicfan",
+      "email": "nickmusicfan@example.com",
+      "bio": "General music fan. love all genres!",
+      "joinedDate": "2024-01-15"
+    },
+    {
+      "id": 2,
+      "username": "rapking244",
+      "email": "rapking244@example.com",
+      "bio": "Rap is the best genre. Change my mind.",
+      "joinedDate": "2024-02-20"
+    }
+  ],
+  "albums": [
+    {
+      "id": 1,
+      "title": "Abbey Road",
+      "artist": "The Beatles",
+      "releaseYear": 1969,
+      "genre": "Rock",
+      "description": "The eleventh studio album by the English rock band The Beatles",
+      "coverImage": "https://picsum.photos/seed/abbeyroad/400/400"
+    },
+    {
+      "id": 2,
+      "title": "Graduation",
+      "artist": "Kanye West",
+      "releaseYear": 2007,
+      "genre": "Hip-Hop",
+      "description": "The third studio album by American rapper Kanye West",
+      "coverImage": "https://picsum.photos/seed/graduation/400/400"
+    }
+  ],
+  "songs": [
+    {
+      "id": 1,
+      "title": "Come Together",
+      "albumId": 1,
+      "artist": "The Beatles",
+      "duration": "4:20",
+      "trackNumber": 1,
+      "spotifyId": null
+    },
+    {
+      "id": 2,
+      "title": "Homecoming",
+      "albumId": 2,
+      "artist": "Kanye West",
+      "duration": "3:25",
+      "trackNumber": 12,
+      "spotifyId": null
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "songId": 1,
+      "userId": 1,
+      "rating": 10,
+      "title": "Come Together is my least favorite track on Abbey Road",
+      "body": "I was reminded of the topic because I was looking at the Beatles' billboard charts and realized that 'Come Together' was the A side to the Abbey Road single with 'Something' as the B side. I know that 'Something' has always gotten the love it deserves, but in my opinion it is REALLY carrying that single. I don't think 'Come Together' is a bad song, but I do believe it is overrated and the least interesting song on the album.",
+      "createdAt": "2024-10-15T14:30:00Z",
+      "updatedAt": "2024-10-15T14:30:00Z"
+    },
+    {
+      "id": 2,
+      "songId": 2,
+      "userId": 2,
+      "rating": 9,
+      "title": "Kanye's Hip-Hop Anthem",
+      "body": "Homecoming is a standout track from Graduation that showcases Kanye West's production genius. The intricate beat and clever wordplay make this hip-hop track incredibly engaging. It's a perfect example of why this album was so influential in modern rap music.",
+      "createdAt": "2024-10-20T09:15:00Z",
+      "updatedAt": "2024-10-20T09:15:00Z"
+    },
+    {
+      "id": 3,
+      "songId": 1,
+      "userId": 2,
+      "rating": 8,
+      "title": "Groovy and Timeless",
+      "body": "Come Together has such a unique vibe. The way the instruments blend together is masterful. Even after all these years, it still sounds fresh and innovative.",
+      "createdAt": "2024-10-22T16:45:00Z",
+      "updatedAt": "2024-10-22T16:45:00Z"
+    },
+    {
+      "id": 4,
+      "songId": 2,
+      "userId": 1,
+      "rating": 10,
+      "title": "A Must-Listen Hip-Hop Classic",
+      "body": "Homecoming is an absolute masterpiece of modern hip-hop. Kanye's production is flawless, and the track perfectly captures the energy and creativity that made Graduation a defining album of the 2000s. The layers of instrumentation and sampling work together seamlessly. This is what contemporary rap should strive to achieve.",
+      "createdAt": "2024-10-25T11:20:00Z",
+      "updatedAt": "2024-10-25T11:20:00Z"
+    },
+    {
+      "songId": 1,
+      "userId": 1,
+      "title": "The review",
+      "body": "review...review...review...review...",
+      "rating": 10,
+      "createdAt": "2025-12-13T06:11:45.527Z",
+      "updatedAt": "2025-12-13T06:11:45.527Z",
+      "id": 5
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "songId": 2,
+      "userId": 2,
+      "body": "Kanye West's production skills really shine on this track. The way he layers the beat and samples is incredible.",
+      "createdAt": "2024-10-15T16:00:00Z"
+    },
+    {
+      "id": 2,
+      "songId": 2,
+      "userId": 1,
+      "body": "This track always gets me pumped up. Perfect for workouts or road trips!",
+      "createdAt": "2024-10-16T08:30:00Z"
+    },
+    {
+      "id": 3,
+      "songId": 1,
+      "userId": 1,
+      "body": "The bass line in this song is absolutely hypnotic. Can't get it out of my head!",
+      "createdAt": "2024-10-20T14:45:00Z"
+    },
+    {
+      "id": 4,
+      "songId": 1,
+      "userId": 2,
+      "body": "Not usually a fan of older rock, but this song is undeniably catchy!",
+      "createdAt": "2024-10-23T10:20:00Z"
+    },
+    {
+      "id": 5,
+      "songId": 2,
+      "userId": 1,
+      "body": "Homecoming never gets old. Every time I listen to it, I appreciate the production quality even more. A true hip-hop masterpiece.",
+      "createdAt": "2024-10-26T09:15:00Z"
+    },
+    {
+      "id": 6,
+      "songId": 2,
+      "userId": 2,
+      "body": "The beat and flow on this track are absolutely incredible. Gives me chills every time I hear it.",
+      "createdAt": "2024-10-26T13:00:00Z"
+    }
+  ]
+}
